@@ -55,5 +55,25 @@
       });
     });
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+<script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBL2xvkscCMiWEbMaGbWuXtpX6tcMJbKMw",
+  authDomain: "quizzler-c5189.firebaseapp.com",
+  projectId: "quizzler-c5189",
+  storageBucket: "quizzler-c5189.appspot.com",
+  messagingSenderId: "741585701917",
+  appId: "1:741585701917:web:5a84bee0f68f79d06ccaf4",
+  measurementId: "G-SM26QZP675"
+};
+
+
+
+firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
